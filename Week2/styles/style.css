@@ -1,0 +1,44 @@
+#container {
+	border-style:solid;
+	border-color:#FF0000;
+}
+
+#content {
+	padding:10px;
+}
+
+#hornav {
+	background-color: #FF0000;
+}
+
+#hornav a { 
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#hornav a:active {
+	border:1px solid #2b66a5;
+	color: #000;
+	background-color:#99cc00;
+}
+
+#hornav a:hover {
+	border:1px solid #2b66a5;
+	color: #000;
+	background-color:#99cc00;
+}
+
+#lnav a:active {
+	border:1px solid #2b66a5;
+	color: #000;
+	background-color:#99cc00;
+}
+
+#lnav a:hover {
+	border:1px solid #2b66a5;
+	color: #000;
+	background-color:#99cc00;
+}

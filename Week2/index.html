@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<script>
+	function validate()
+	{
+	var email = document.getElementById("email").value
+	var conemail = document.getElementById("conemail").value
+	if (email != conemail)
+		{
+		alert ("Email does not match, please re enter")
+		return false
+		}
+	if (email == "")
+		{
+		alert ("You must provide your email address")
+		return false
+		}
+	}
+	</script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			
+		</div>
+		<div id="hornav">
+			<a href="home.html">Home</a>
+			<a href="lectures.html">Lectures</a>
+			<a href="Seminars.html">Seminars</a>
+			<a href="assesments.html">Assesments</a>
+			<a href="resources.html">Resources</a>
+			<a href="contactus.html">Contact Us</a>
+		</div>
+		<div id="lnav">
+			
+		</div>
+		<div id="content">
+			<form action="" onsubmit="return validate()">
+				Name <input type="text" id="name">
+				Age <input type="text" name="age" id="age">
+				email <input type="text" id="email">
+				Confirm <input type="text" id="conemail">
+				<input type="submit" id="submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
